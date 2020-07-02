@@ -1,0 +1,739 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Business with Property</title>
+  </head>
+  <body>
+    <header>
+      <div class="row mar-zero top-header">
+        <div class="center col-md-6">
+          <span class="topbar-text">Welcome to our Business Listing</span>
+        </div>
+        <div class="col-md-6 phone-email">
+          <span class="topbar-text"
+            >Phone:+1342 422 9029 Email:
+            <span class="clr-main">info@company.com</span></span
+          >
+        </div>
+      </div>
+      <div class="row mar-zero bottom-header">
+        <div class="col-md-4 center">
+          <h4 class="main-logo">Business Listing</h4>
+        </div>
+        <div class="col-md-4 center">
+          <span class="bottom-header-options">Buy a Business</span>
+          <span class="bottom-header-options">Sell a Business</span>
+          <span class="bottom-header-options clr-main">Business Brokers</span>
+        </div>
+        <div class="col-md-4 header-btns-cont">
+          <button
+            type="button"
+            class="header-btns"
+            onclick="location.href='sign-in-to-business-with-seller.html'"
+          >
+            Sign In
+          </button>
+          <button
+            type="button"
+            onclick="location.href='sign-up-with-seller.html'"
+            class="header-btns header-sign-up-btn"
+          >
+            Sign Up
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <div class="main-business-with-property">
+      <div class="container-fluid row business-property-top">
+        <div class="col-md-1 left back-arrow">
+          <i class="fa fa-arrow-left fs-18" aria-hidden="true"></i>
+        </div>
+        <div class="col-md-10 center">
+          <button class="business-property-main-btn">
+            Business with Property
+          </button>
+        </div>
+        <div class="col-md-1 right">
+          <i class="fa fa-bars fs-22 selected" aria-hidden="true"></i>
+          <i
+            class="fa fa-th fs-22"
+            aria-hidden="true"
+            onclick="location.href='business-with-property-grid.html'"
+          ></i>
+        </div>
+      </div>
+
+      <div class="property-business-shadow-up">
+        <div class="center property-business-option-bar">
+          <select>
+            <option value="">Buy</option>
+            <option value="">Sell</option>
+          </select>
+          <select>
+            <option value="">Category</option>
+            <option value="">Sell</option>
+          </select>
+          <select>
+            <option value="">Any State/Region</option>
+            <option value="">Sell</option>
+          </select>
+          <select class="responsive-select">
+            <option value="">Select Country</option>
+            <option value="">Sell</option>
+          </select>
+          <select class="responsive-select">
+            <option value="">City</option>
+            <option value="">Sell</option>
+          </select>
+          <select class="responsive-select">
+            <option value="">Price Range</option>
+            <option value="">Sell</option>
+          </select>
+          <select>
+            <option value="">Cash Flow</option>
+            <option value="">Sell</option>
+          </select>
+          <button class="option-bar-search-btn">Search</button>
+        </div>
+
+        <!-- Item-1 -->
+        <div class="property-backg-blue row mar-zero property-business-item">
+          <div class="col-md-2 property-business-item-img">
+            <img
+              src="assets/images/Business-listing-1.svg"
+              alt="Broker/Seller Image"
+            />
+          </div>
+          <div class="col-md-8">
+            <div class="property-business-item-heading">
+              <span>Mike Steward</span>
+            </div>
+            <div class="property-business-item-description">
+              <span
+                >Lorem ipsum dolor, sit amet consectetur adipisicing elit. Optio
+                nulla sit pariatur consequatur, esse repellendus nesciunt
+                corporis iusto veritatis tempore iure iste, eaque dignissimos
+                rerum facilis? Voluptatum quaerat magnam expedita placeat hic ad
+                debitis esse veritatis doloribus, dolores illum consequatur
+                minus, dolorem fugit culpa modi veniam amet enim! Laboriosam ex
+                praesentium vero velit distinctio earum aliquid.</span
+              >
+            </div>
+            <div class="property-business-item-end-text">
+              <span>California, USA</span>
+            </div>
+            <div class="property-business-item-end-text">
+              <span>Listing - 3</span>
+            </div>
+          </div>
+          <div class="col-md-2">
+            <button
+              class="contact-brkr-btn"
+              data-toggle="modal"
+              data-target="#myModal1"
+            >
+              Contact Broker
+            </button>
+            <div class="more-brokers">
+              <span>More Brokers</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="modal fade" id="myModal1" role="dialog">
+          <div class="modal-dialog modal-xl">
+            <!-- Modal content-->
+            <div class="modal-content modal-content-1">
+              <div class="main-modal-body">
+                <div class="modal-box-heading">
+                  <span>Contact the Broker</span>
+                  <button type="button" class="close" data-dismiss="modal">
+                    &times;
+                  </button>
+                </div>
+                <form>
+                  <div class="row mar-zero">
+                    <div class="col-md-6 pad-zero">
+                      <input type="text" placeholder="First/Middle Name" />
+                    </div>
+                    <div class="col-md-6">
+                      <input type="text" placeholder="Mobile No." />
+                    </div>
+                  </div>
+                  <input type="text" placeholder="Email ID" />
+                  <input type="text" placeholder="Message to Broker" />
+
+                  <div class="center check-box-cont">
+                    <input type="radio" />
+                    <span class="pad-zero"
+                      >Agree to the
+                      <span class="terms-clr"
+                        >Terms of Use & Privacy Policy</span
+                      ></span
+                    >
+                  </div>
+                  <div class="center">
+                    <button type="button" class="pop-up-message-btn">
+                      Send Message
+                    </button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Item-2 -->
+
+        <div class="property-backg-pink row mar-zero property-business-item">
+          <div class="col-md-2 property-business-item-img">
+            <img
+              src="assets/images/Business-listing-2.svg"
+              alt="Broker/Seller Image"
+            />
+          </div>
+          <div class="col-md-8">
+            <div class="property-business-item-heading">
+              <span>FOCALPOINT BUSINESS</span>
+            </div>
+            <div class="property-business-item-description">
+              <span
+                >Lorem ipsum dolor, sit amet consectetur adipisicing elit. Optio
+                nulla sit pariatur consequatur, esse repellendus nesciunt
+                corporis iusto veritatis tempore iure iste, eaque dignissimos
+                rerum facilis? Voluptatum quaerat magnam expedita placeat hic ad
+                debitis esse veritatis doloribus, dolores illum consequatur
+                minus, dolorem fugit culpa modi veniam amet enim! Laboriosam ex
+                praesentium vero velit distinctio earum aliquid.</span
+              >
+            </div>
+            <div class="property-business-item-end-text">
+              <span>California, USA</span>
+            </div>
+            <div class="property-business-item-end-text">
+              <span>Revenue - $50,000 p.a</span>
+            </div>
+          </div>
+          <div class="col-md-2">
+            <div class="seller-price">
+              <span>$50,000</span>
+            </div>
+            <button
+              class="contact-brkr-btn"
+              data-toggle="modal"
+              data-target="#myModal2"
+            >
+              Contact Seller
+            </button>
+          </div>
+        </div>
+
+        <div class="modal fade" id="myModal2" role="dialog">
+          <div class="modal-dialog modal-xl">
+            <!-- Modal content-->
+            <div class="modal-content modal-content-1">
+              <div class="main-modal-body">
+                <div class="modal-box-heading">
+                  <span>Contact the Seller</span>
+                  <button type="button" class="close" data-dismiss="modal">
+                    &times;
+                  </button>
+                </div>
+                <form>
+                  <div class="row mar-zero">
+                    <div class="col-md-6 pad-zero">
+                      <input type="text" placeholder="First/Middle Name" />
+                    </div>
+                    <div class="col-md-6">
+                      <input type="text" placeholder="Mobile No." />
+                    </div>
+                  </div>
+                  <input type="text" placeholder="Email ID" />
+                  <input type="text" placeholder="Message to Broker" />
+
+                  <div class="center check-box-cont">
+                    <input type="radio" />
+                    <span class="pad-zero"
+                      >Agree to the
+                      <span class="terms-clr"
+                        >Terms of Use & Privacy Policy</span
+                      ></span
+                    >
+                  </div>
+                  <div class="center">
+                    <button type="button" class="pop-up-message-btn">
+                      Send Message
+                    </button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Item-3 -->
+
+        <div class="property-backg-blue row mar-zero property-business-item">
+          <div class="col-md-2 property-business-item-img">
+            <img
+              src="assets/images/Business-listing-3.svg"
+              alt="Broker/Seller Image"
+            />
+          </div>
+          <div class="col-md-8">
+            <div class="property-business-item-heading">
+              <span>FOCALPOINT BUSINESS</span>
+            </div>
+            <div class="property-business-item-description">
+              <span
+                >Lorem ipsum dolor, sit amet consectetur adipisicing elit. Optio
+                nulla sit pariatur consequatur, esse repellendus nesciunt
+                corporis iusto veritatis tempore iure iste, eaque dignissimos
+                rerum facilis? Voluptatum quaerat magnam expedita placeat hic ad
+                debitis esse veritatis doloribus, dolores illum consequatur
+                minus, dolorem fugit culpa modi veniam amet enim! Laboriosam ex
+                praesentium vero velit distinctio earum aliquid.</span
+              >
+            </div>
+            <div class="property-business-item-end-text">
+              <span>California, USA</span>
+            </div>
+            <div class="property-business-item-end-text">
+              <span>Revenue - $50,000 p.a</span>
+            </div>
+          </div>
+          <div class="col-md-2">
+            <div class="seller-price">
+              <span>$50,000</span>
+            </div>
+            <button
+              class="contact-brkr-btn"
+              data-toggle="modal"
+              data-target="#myModal3"
+            >
+              Contact Seller
+            </button>
+          </div>
+        </div>
+
+        <div class="modal fade" id="myModal3" role="dialog">
+          <div class="modal-dialog modal-xl">
+            <!-- Modal content-->
+            <div class="modal-content modal-content-1">
+              <div class="main-modal-body">
+                <div class="modal-box-heading">
+                  <span>Contact the Seller</span>
+                  <button type="button" class="close" data-dismiss="modal">
+                    &times;
+                  </button>
+                </div>
+                <form>
+                  <div class="row mar-zero">
+                    <div class="col-md-6 pad-zero">
+                      <input type="text" placeholder="First/Middle Name" />
+                    </div>
+                    <div class="col-md-6">
+                      <input type="text" placeholder="Mobile No." />
+                    </div>
+                  </div>
+                  <input type="text" placeholder="Email ID" />
+                  <input type="text" placeholder="Message to Broker" />
+
+                  <div class="center check-box-cont">
+                    <input type="radio" />
+                    <span class="pad-zero"
+                      >Agree to the
+                      <span class="terms-clr"
+                        >Terms of Use & Privacy Policy</span
+                      ></span
+                    >
+                  </div>
+                  <div class="center">
+                    <button type="button" class="pop-up-message-btn">
+                      Send Message
+                    </button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Item-4 -->
+
+        <div class="property-backg-pink row mar-zero property-business-item">
+          <div class="col-md-2 property-business-item-img">
+            <img
+              src="assets/images/Business-listing-1.svg"
+              alt="Broker/Seller Image"
+            />
+          </div>
+          <div class="col-md-8">
+            <div class="property-business-item-heading">
+              <span>FOCALPOINT BUSINESS</span>
+            </div>
+            <div class="property-business-item-description">
+              <span
+                >Lorem ipsum dolor, sit amet consectetur adipisicing elit. Optio
+                nulla sit pariatur consequatur, esse repellendus nesciunt
+                corporis iusto veritatis tempore iure iste, eaque dignissimos
+                rerum facilis? Voluptatum quaerat magnam expedita placeat hic ad
+                debitis esse veritatis doloribus, dolores illum consequatur
+                minus, dolorem fugit culpa modi veniam amet enim! Laboriosam ex
+                praesentium vero velit distinctio earum aliquid.</span
+              >
+            </div>
+            <div class="property-business-item-end-text">
+              <span>California, USA</span>
+            </div>
+            <div class="property-business-item-end-text">
+              <span>Revenue - $50,000 p.a</span>
+            </div>
+          </div>
+          <div class="col-md-2">
+            <div class="seller-price">
+              <span>$50,000</span>
+            </div>
+            <button
+              class="contact-brkr-btn"
+              data-toggle="modal"
+              data-target="#myModal4"
+            >
+              Contact Seller
+            </button>
+          </div>
+        </div>
+
+        <div class="modal fade" id="myModal4" role="dialog">
+          <div class="modal-dialog modal-xl">
+            <!-- Modal content-->
+            <div class="modal-content modal-content-1">
+              <div class="main-modal-body">
+                <div class="modal-box-heading">
+                  <span>Contact the Seller</span>
+                  <button type="button" class="close" data-dismiss="modal">
+                    &times;
+                  </button>
+                </div>
+                <form>
+                  <div class="row mar-zero">
+                    <div class="col-md-6 pad-zero">
+                      <input type="text" placeholder="First/Middle Name" />
+                    </div>
+                    <div class="col-md-6">
+                      <input type="text" placeholder="Mobile No." />
+                    </div>
+                  </div>
+                  <input type="text" placeholder="Email ID" />
+                  <input type="text" placeholder="Message to Broker" />
+
+                  <div class="center check-box-cont">
+                    <input type="radio" />
+                    <span class="pad-zero"
+                      >Agree to the
+                      <span class="terms-clr"
+                        >Terms of Use & Privacy Policy</span
+                      ></span
+                    >
+                  </div>
+                  <div class="center">
+                    <button type="button" class="pop-up-message-btn">
+                      Send Message
+                    </button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Item-5 -->
+
+        <div class="property-backg-blue row mar-zero property-business-item">
+          <div class="col-md-2 property-business-item-img">
+            <img
+              src="assets/images/Business-listing-2.svg"
+              alt="Broker/Seller Image"
+            />
+          </div>
+          <div class="col-md-8">
+            <div class="property-business-item-heading">
+              <span>FOCALPOINT BUSINESS</span>
+            </div>
+            <div class="property-business-item-description">
+              <span
+                >Lorem ipsum dolor, sit amet consectetur adipisicing elit. Optio
+                nulla sit pariatur consequatur, esse repellendus nesciunt
+                corporis iusto veritatis tempore iure iste, eaque dignissimos
+                rerum facilis? Voluptatum quaerat magnam expedita placeat hic ad
+                debitis esse veritatis doloribus, dolores illum consequatur
+                minus, dolorem fugit culpa modi veniam amet enim! Laboriosam ex
+                praesentium vero velit distinctio earum aliquid.</span
+              >
+            </div>
+            <div class="property-business-item-end-text">
+              <span>California, USA</span>
+            </div>
+            <div class="property-business-item-end-text">
+              <span>Revenue - $50,000 p.a</span>
+            </div>
+          </div>
+          <div class="col-md-2">
+            <div class="seller-price">
+              <span>$50,000</span>
+            </div>
+            <button
+              class="contact-brkr-btn"
+              data-toggle="modal"
+              data-target="#myModal5"
+            >
+              Contact Seller
+            </button>
+          </div>
+        </div>
+
+        <div class="modal fade" id="myModal5" role="dialog">
+          <div class="modal-dialog modal-xl">
+            <!-- Modal content-->
+            <div class="modal-content modal-content-1">
+              <div class="main-modal-body">
+                <div class="modal-box-heading">
+                  <span>Contact the Seller</span>
+                  <button type="button" class="close" data-dismiss="modal">
+                    &times;
+                  </button>
+                </div>
+                <form>
+                  <div class="row mar-zero">
+                    <div class="col-md-6 pad-zero">
+                      <input type="text" placeholder="First/Middle Name" />
+                    </div>
+                    <div class="col-md-6">
+                      <input type="text" placeholder="Mobile No." />
+                    </div>
+                  </div>
+                  <input type="text" placeholder="Email ID" />
+                  <input type="text" placeholder="Message to Broker" />
+
+                  <div class="center check-box-cont">
+                    <input type="radio" />
+                    <span class="pad-zero"
+                      >Agree to the
+                      <span class="terms-clr"
+                        >Terms of Use & Privacy Policy</span
+                      ></span
+                    >
+                  </div>
+                  <div class="center">
+                    <button type="button" class="pop-up-message-btn">
+                      Send Message
+                    </button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Item-6 -->
+
+        <div class="property-backg-pink row mar-zero property-business-item">
+          <div class="col-md-2 property-business-item-img">
+            <img
+              src="assets/images/Business-listing-3.svg"
+              alt="Broker/Seller Image"
+            />
+          </div>
+          <div class="col-md-8">
+            <div class="property-business-item-heading">
+              <span>FOCALPOINT BUSINESS</span>
+            </div>
+            <div class="property-business-item-description">
+              <span
+                >Lorem ipsum dolor, sit amet consectetur adipisicing elit. Optio
+                nulla sit pariatur consequatur, esse repellendus nesciunt
+                corporis iusto veritatis tempore iure iste, eaque dignissimos
+                rerum facilis? Voluptatum quaerat magnam expedita placeat hic ad
+                debitis esse veritatis doloribus, dolores illum consequatur
+                minus, dolorem fugit culpa modi veniam amet enim! Laboriosam ex
+                praesentium vero velit distinctio earum aliquid.</span
+              >
+            </div>
+            <div class="property-business-item-end-text">
+              <span>California, USA</span>
+            </div>
+            <div class="property-business-item-end-text">
+              <span>Revenue - $50,000 p.a</span>
+            </div>
+          </div>
+          <div class="col-md-2">
+            <div class="seller-price">
+              <span>$50,000</span>
+            </div>
+            <button
+              class="contact-brkr-btn"
+              data-toggle="modal"
+              data-target="#myModal6"
+            >
+              Contact Seller
+            </button>
+          </div>
+        </div>
+
+        <div class="modal fade" id="myModal6" role="dialog">
+          <div class="modal-dialog modal-xl">
+            <!-- Modal content-->
+            <div class="modal-content modal-content-1">
+              <div class="main-modal-body">
+                <div class="modal-box-heading">
+                  <span>Contact the Seller</span>
+                  <button type="button" class="close" data-dismiss="modal">
+                    &times;
+                  </button>
+                </div>
+                <form>
+                  <div class="row mar-zero">
+                    <div class="col-md-6 pad-zero">
+                      <input type="text" placeholder="First/Middle Name" />
+                    </div>
+                    <div class="col-md-6">
+                      <input type="text" placeholder="Mobile No." />
+                    </div>
+                  </div>
+                  <input type="text" placeholder="Email ID" />
+                  <input type="text" placeholder="Message to Broker" />
+
+                  <div class="center check-box-cont">
+                    <input type="radio" />
+                    <span class="pad-zero"
+                      >Agree to the
+                      <span class="terms-clr"
+                        >Terms of Use & Privacy Policy</span
+                      ></span
+                    >
+                  </div>
+                  <div class="center">
+                    <button type="button" class="pop-up-message-btn">
+                      Send Message
+                    </button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="center load-more">
+        <span>Load More...</span>
+      </div>
+    </div>
+
+    <footer>
+      <div class="row mar-zero">
+        <div class="col-md-2"></div>
+        <div class="col-md-8 row mar-zero busines-listing-footer">
+          <div class="col-md-4">
+            <div class="footer-heading">
+              <span>Business Listing</span>
+            </div>
+            <div class="footer-description">
+              <span
+                >Lorem ipsum dolor sit amet consectetur adipisicing elit. In,
+                quasi. Ipsa eveniet laboriosam dignissimos cum reprehenderit,
+                pariatur enim aliquam ipsum!</span
+              >
+            </div>
+            <div class="footer-icons">
+              <i class="fa fa-facebook my-fa-2 my-fb" aria-hidden="true"></i>
+              <i class="fa fa-instagram my-fa-2" aria-hidden="true"></i>
+              <i class="fa fa-linkedin my-fa-2" aria-hidden="true"></i>
+              <i
+                class="fa fa-google-plus my-fa-2 my-gplus"
+                aria-hidden="true"
+              ></i>
+            </div>
+          </div>
+          <div class="col-md-8 row mar-zero">
+            <div class="col-md-4">
+              <div class="footer-heading-2">
+                <span>Search</span>
+              </div>
+              <div class="footer-list">
+                <ul>
+                  <li>Established Business</li>
+                  <li>Franchise for Sale</li>
+                  <li>Asset Sales</li>
+                  <li>Business Real Estate</li>
+                  <li>Find a Broker</li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="footer-heading-2">
+                <span>Advertise</span>
+              </div>
+              <div class="footer-list">
+                <ul>
+                  <li>List a Business for Sale</li>
+                  <li>Become an Advertiser</li>
+                  <li>BrokerWorks</li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="footer-heading-2">
+                <span>Contact Us</span>
+              </div>
+              <div class="footer-list">
+                <ul>
+                  <li>Phone: +1 234 567 9332</li>
+                  <li>Email: info@company.com</li>
+                  <li>Fax: +1 242 422 5314</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-2"></div>
+      </div>
+
+      <div class="center Copyright">
+        <span
+          >© Copyright 2018 <span class="copyright-darker">CleanNow,</span> All
+          right Reserved
+        </span>
+      </div>
+    </footer>
+  </body>
+</html>

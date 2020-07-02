@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
+  <g id="Group_1210" data-name="Group 1210" transform="translate(-1662 -385)">
+    <g id="Rectangle_616" data-name="Rectangle 616" transform="translate(1662 385)" fill="#eee" stroke="#9f9f9f" stroke-width="0.5">
+      <rect width="40" height="40" stroke="none"/>
+      <rect x="0.25" y="0.25" width="39.5" height="39.5" fill="none"/>
+    </g>
+    <g id="Icons_with_numbers" data-name="Icons with numbers" transform="translate(1670.61 392.876)">
+      <g id="Group" transform="translate(1 1.412)">
+        <path id="Triangle_313" data-name="Triangle 313" d="M385,209.314l6.035,6.109H385Zm10.562-12,6.035,6.035-9.085,10.628-6-6.1Zm3.146-3.348c.942-.942,2.752-.661,4.044.631l1.168,1.168c1.29,1.29,1.572,3.1.629,4.044l-1.865,1.863-5.841-5.841Zm0,0" transform="translate(-385 -193.412)" fill-rule="evenodd"/>
+      </g>
+    </g>
+  </g>
+</svg>

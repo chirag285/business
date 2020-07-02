@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+
+    <title>Business with Property</title>
+  </head>
+  <body>
+    <header>
+      <div class="row mar-zero top-header">
+        <div class="center col-md-6">
+          <span class="topbar-text">Welcome to our Business Listing</span>
+        </div>
+        <div class="col-md-6 phone-email">
+          <span class="topbar-text"
+            >Phone:+1342 422 9029 Email:
+            <span class="clr-main">info@company.com</span></span
+          >
+        </div>
+      </div>
+      <div class="row mar-zero bottom-header my-listing-hdr create-header">
+        <div class="col-md-4 center">
+          <h3 class="main-logo">Business Listing</h3>
+        </div>
+        <div class="col-md-4 center my-listing-hdr-2"></div>
+        <div class="col-md-4 header-btns-cont">
+          <div class="top-profile">
+            <div class="name-status">
+              <div class="top-name">
+                <span>John Doe</span>
+              </div>
+              <div class="top-status">
+                <span>Available</span>
+              </div>
+            </div>
+            <div class="profile-img">
+              <img src="assets/images/User Photo.svg" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <div class="main-create-ad">
+      <div class="create-ad-top-bar border-bottom">
+        <div class="c-ad-topbar-item">
+          <div class="c-ad-topbar-option completed-topbar-option">
+            <span>Create Account</span>
+          </div>
+          <div class="border-btm-g selected-brdr"></div>
+        </div>
+        <div>
+          <img
+            src="assets/images/arrow-yellow.svg"
+            class="yellow-arrow"
+            alt=""
+          />
+        </div>
+        <div class="c-ad-topbar-item">
+          <div class="c-ad-topbar-option selected-topbar-option">
+            <span>Basic Info (not Complete)</span>
+          </div>
+          <div class="border-btm-g selected-brdr"></div>
+        </div>
+        <div>
+          <img
+            src="assets/images/arrow-yellow.svg"
+            class="yellow-arrow"
+            alt=""
+          />
+        </div>
+        <div
+          class="c-ad-topbar-item"
+          onclick="location.href='choose-plan.html'"
+        >
+          <div class="c-ad-topbar-option">
+            <span>Select Plan (not Complete)</span>
+          </div>
+          <div class="border-btm-g"></div>
+        </div>
+        <div>
+          <img
+            src="assets/images/arrow-yellow.svg"
+            class="yellow-arrow"
+            alt=""
+          />
+        </div>
+        <div class="c-ad-topbar-item">
+          <div class="c-ad-topbar-option">
+            <span>Ad Complete (not Complete)</span>
+          </div>
+          <div class="border-btm-g"></div>
+        </div>
+      </div>
+    </div>
+    <div class="create-ad-main-content basic-business-main-content">
+      <div class="cd-ad-heading">
+        <h2>A little basic business info.</h2>
+      </div>
+      <div class="cd-ad-desc basic-business-desc">
+        <span
+          >You may keep certain information confidential but keep in my mind,
+          the more details you provide the more effectice your ad will be.
+        </span>
+      </div>
+
+      <div class="input-for-ad-cont">
+        <span class="title-ad-sp">Title for this Ad</span>
+        <input class="basic-info-input" type="text" />
+        <span class="req-text">Required</span>
+      </div>
+
+      <div class="extra-options">
+        <div>
+          <img src="assets/images/1.svg" class="qsn-img" />
+          <span class="listing-type">Listing Type</span>
+        </div>
+        <div class="pad-left-76">
+          <label class="my-radios pad-top-3"
+            >Established Business for Sale
+            <input type="radio" checked="checked" name="radio" />
+            <span class="checkmark"></span>
+          </label>
+          <span class="listing-type-2">Show other listing types</span>
+        </div>
+      </div>
+
+      <!-- business-location-section -->
+
+      <div class="business-location-section">
+        <div class="business-location-section-header">
+          <span><span class="clr-main">Bu</span>siness Location:</span>
+        </div>
+
+        <div class="input-for-ad-cont">
+          <span class="title-ad-sp">Business Country</span>
+          <input class="basic-info-input" type="text" />
+          <span class="req-text">Required</span>
+        </div>
+
+        <div class="input-for-ad-cont">
+          <span class="title-ad-sp">Zip Code or City</span>
+          <input class="basic-info-input zip-code-input" type="text" />
+          <span class="req-text">Required</span>
+        </div>
+
+        <div class="input-for-ad-cont">
+          <span class="title-ad-sp">Street Address</span>
+          <input class="basic-info-input street-input" type="text" />
+          <span class="req-text">Required</span>
+        </div>
+
+        <div class="extra-options">
+          <div class="make-conf">
+            <img src="assets/images/1.svg" class="qsn-img-43" />
+            <span class="listing-type listing-type-make"
+              >Make Confidential:</span
+            >
+          </div>
+          <div class="established-business">
+            <label class="my-radios my-radios-2"
+              >State
+              <input type="radio" name="Established" />
+              <span class="checkmark checkmark-2"></span>
+            </label>
+            <label class="my-radios my-radios-2"
+              >Country
+              <input type="radio" name="Established" />
+              <span class="checkmark checkmark-2"></span>
+            </label>
+            <label class="my-radios my-radios-2"
+              >City
+              <input type="radio" name="Established" />
+              <span class="checkmark checkmark-2"></span>
+            </label>
+            <label class="my-radios my-radios-2"
+              >Address
+              <input type="radio" name="Established" />
+              <span class="checkmark checkmark-2"></span>
+            </label>
+          </div>
+        </div>
+      </div>
+
+      <!-- Contact Information Section -->
+
+      <div class="business-location-section">
+        <div class="business-location-section-header">
+          <span><span class="clr-main">Co</span>ntact Information:</span>
+        </div>
+
+        <div class="input-for-ad-cont">
+          <span class="title-ad-sp Contact-Name-input">Contact Name</span>
+          <input class="basic-info-input" type="text" />
+        </div>
+
+        <div class="input-for-ad-cont">
+          <span class="title-ad-sp">Contact Phone</span>
+          <input class="basic-info-input Contact-Phone-input" type="text" />
+        </div>
+
+        <div class="input-for-ad-cont">
+          <span class="title-ad-sp Contact-Email-input"
+            >Contact Email Address</span
+          >
+          <input class="basic-info-input contact-email" type="text" />
+          <span class="req-text">Required</span>
+        </div>
+      </div>
+
+      <!-- General Business and Real Estate Section -->
+
+      <div class="row mar-zero general-real-estate-cont">
+        <div class="col-md-6 p-0">
+          <div class="business-location-section p-0">
+            <div class="business-location-section-header">
+              <span
+                ><span class="clr-main">Ge</span>neral Business
+                Information:</span
+              >
+            </div>
+
+            <div class="input-for-ad-cont">
+              <span class="title-ad-sp">Best Matching Category</span>
+              <input
+                class="basic-info-input last-inputs"
+                type="text"
+                placeholder="Select a Business Category"
+              />
+              <span class="req-text">Required</span>
+            </div>
+
+            <div class="input-for-ad-cont">
+              <span class="title-ad-sp">Other Matching Category</span>
+              <input
+                class="basic-info-input last-inputs Other-Matching-input"
+                type="text"
+                placeholder="Select a Business Category"
+              />
+            </div>
+
+            <div class="small-inputs">
+              <div class="small-in-row">
+                <div class="input-for-ad-cont">
+                  <span class="title-ad-sp">Price</span>
+                  <input
+                    class="basic-info-input last-inputs price-input"
+                    type="text"
+                    placeholder="---- ----"
+                  />
+                </div>
+                <div class="input-for-ad-cont">
+                  <span class="title-ad-sp Gross-span">Gross Revenue</span>
+                  <input
+                    class="basic-info-input last-inputs Grossr-input"
+                    type="text"
+                    placeholder="---- ----"
+                  />
+                </div>
+              </div>
+              <div class="small-in-row">
+                <div class="input-for-ad-cont">
+                  <span class="title-ad-sp">Cash Flow</span>
+                  <input
+                    class="basic-info-input last-inputs Cash-flow-input"
+                    type="text"
+                    placeholder="---- ----"
+                  />
+                </div>
+                <div class="input-for-ad-cont">
+                  <span class="title-ad-sp Inventory-span">Inventory</span>
+                  <input
+                    class="basic-info-input last-inputs Inventory-input"
+                    type="text"
+                    placeholder="---- ----"
+                  />
+                </div>
+              </div>
+              <div class="small-in-row">
+                <div class="input-for-ad-cont">
+                  <span class="title-ad-sp">Established Year</span>
+                  <input
+                    class="basic-info-input last-inputs Established-input"
+                    type="text"
+                    placeholder="----"
+                  />
+                </div>
+                <div class="input-for-ad-cont">
+                  <span class="title-ad-sp Leased-span">Leased SF</span>
+                  <input
+                    class="basic-info-input last-inputs Leased-input"
+                    type="text"
+                    placeholder="----"
+                  />
+                </div>
+              </div>
+            </div>
+
+            <div class="input-for-ad-cont">
+              <span class="title-ad-sp Reason-sell-span"
+                >Reason for Selling</span
+              >
+              <input
+                class="basic-info-input last-inputs Other-Matching-input Reason-sell-input"
+                type="text"
+                placeholder="Select a Business Category"
+              />
+            </div>
+
+            <div class="input-for-ad-cont">
+              <span class="title-ad-sp">Support/Training</span>
+              <input
+                class="basic-info-input last-inputs Support-Training-input"
+                type="text"
+              />
+            </div>
+            <div class="input-for-ad-cont">
+              <span class="title-ad-sp">Seller Financing</span>
+              <input
+                class="basic-info-input last-inputs Seller-Financing-input"
+                type="text"
+              />
+            </div>
+            <div class="input-for-ad-cont">
+              <span class="title-ad-sp">Number of Employes</span>
+              <input
+                class="basic-info-input last-inputs Number-Employes-input"
+                type="number"
+              />
+            </div>
+            <div class="input-for-ad-cont">
+              <span class="title-ad-sp">Year Established</span>
+              <input
+                class="basic-info-input last-inputs Year-Established-input"
+                type="text"
+              />
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 real-estate-sec">
+          <div class="business-location-section p-0">
+            <div class="business-location-section-header">
+              <span><span class="clr-main">Re</span>al Estate:</span>
+            </div>
+
+            <div class="input-for-ad-cont">
+              <span class="title-ad-sp">Cap Rate %</span>
+              <input
+                class="basic-info-input cap-rate-input"
+                type="text"
+                placeholder="--- --- ---"
+              />
+            </div>
+
+            <div class="input-for-ad-cont">
+              <span class="title-ad-sp">Building SF</span>
+              <input
+                class="basic-info-input Building-SF-input"
+                type="text"
+                placeholder="--- --- ---"
+              />
+            </div>
+
+            <div class="input-for-ad-cont">
+              <span class="title-ad-sp">Established year</span>
+              <input
+                class="basic-info-input Established-year2-input"
+                type="text"
+                placeholder="---"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="busi-info-last-section">
+        <div class="business-website-cont">
+          <img src="assets/images/1.svg" class="qsn-img" />
+          <span class="listing-type Business-Website-span"
+            >Business Website</span
+          >
+          <input type="text" class="website-input" placeholder="http://" />
+        </div>
+        <div class="business-is-cont">
+          <img src="assets/images/1.svg" class="qsn-img" />
+          <span class="listing-type Business-Website-span">Business is</span>
+          <div class="radios-bottom">
+            <label class="my-radios my-radios-2"
+              >Keep Website Confidential
+              <input type="radio" name="Established" />
+              <span class="checkmark checkmark-2"></span>
+            </label>
+            <label class="my-radios my-radios-2"
+              >Absent Owner
+              <input type="radio" name="Established" />
+              <span class="checkmark checkmark-2"></span>
+            </label>
+            <label class="my-radios my-radios-2"
+              >Relocatable
+              <input type="radio" name="Established" />
+              <span class="checkmark checkmark-2"></span>
+            </label>
+          </div>
+          <div class="second-btm-radios">
+            <label class="my-radios my-radios-2"
+              >Home-based
+              <input type="radio" name="Established" />
+              <span class="checkmark checkmark-2"></span>
+            </label>
+            <label class="my-radios my-radios-2"
+              >Established Franchise
+              <input type="radio" name="Established" />
+              <span class="checkmark checkmark-2"></span>
+            </label>
+          </div>
+        </div>
+
+        <div class="last-sec-btns-plan">
+          <button class="choose-now-btn">Now, Choose a Plan</button>
+          <button class="Preview-ad-btn">
+            <i class="fa fa-search my-search" aria-hidden="true"></i>
+            Preview your Ad
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <div class="row mar-zero">
+        <div class="col-md-2"></div>
+        <div class="col-md-8 row mar-zero busines-listing-footer">
+          <div class="col-md-4">
+            <div class="footer-heading">
+              <span>Business Listing</span>
+            </div>
+            <div class="footer-description">
+              <span
+                >Lorem ipsum dolor sit amet consectetur adipisicing elit. In,
+                quasi. Ipsa eveniet laboriosam dignissimos cum reprehenderit,
+                pariatur enim aliquam ipsum!</span
+              >
+            </div>
+            <div class="footer-icons">
+              <i class="fa fa-facebook my-fa-2 my-fb" aria-hidden="true"></i>
+              <i class="fa fa-instagram my-fa-2" aria-hidden="true"></i>
+              <i class="fa fa-linkedin my-fa-2" aria-hidden="true"></i>
+              <i
+                class="fa fa-google-plus my-fa-2 my-gplus"
+                aria-hidden="true"
+              ></i>
+            </div>
+          </div>
+          <div class="col-md-8 row mar-zero">
+            <div class="col-md-4">
+              <div class="footer-heading-2">
+                <span>Search</span>
+              </div>
+              <div class="footer-list">
+                <ul>
+                  <li>Established Business</li>
+                  <li>Franchise for Sale</li>
+                  <li>Asset Sales</li>
+                  <li>Business Real Estate</li>
+                  <li>Find a Broker</li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="footer-heading-2">
+                <span>Advertise</span>
+              </div>
+              <div class="footer-list">
+                <ul>
+                  <li>List a Business for Sale</li>
+                  <li>Become an Advertiser</li>
+                  <li>BrokerWorks</li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="footer-heading-2">
+                <span>Contact Us</span>
+              </div>
+              <div class="footer-list">
+                <ul>
+                  <li>Phone: +1 234 567 9332</li>
+                  <li>Email: info@company.com</li>
+                  <li>Fax: +1 242 422 5314</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-2"></div>
+      </div>
+
+      <div class="center Copyright">
+        <span
+          >© Copyright 2018 <span class="copyright-darker">CleanNow,</span> All
+          right Reserved
+        </span>
+      </div>
+    </footer>
+  </body>
+</html>

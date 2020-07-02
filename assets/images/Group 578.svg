@@ -1,0 +1,9 @@
+<svg id="Group_578" data-name="Group 578" xmlns="http://www.w3.org/2000/svg" width="52" height="51" viewBox="0 0 52 51">
+  <g id="facebook" transform="translate(18.616 12.04)">
+    <path id="Path_58" data-name="Path 58" d="M35.75.005,32.342,0c-3.828,0-6.3,2.538-6.3,6.467V9.449H22.613a.536.536,0,0,0-.536.536v4.32a.536.536,0,0,0,.536.536h3.426v10.9a.536.536,0,0,0,.536.536h4.47a.536.536,0,0,0,.536-.536v-10.9h4.006a.536.536,0,0,0,.536-.536l0-4.32a.536.536,0,0,0-.536-.536H31.581V6.921c0-1.215.29-1.832,1.872-1.832h2.3a.536.536,0,0,0,.536-.536V.541A.536.536,0,0,0,35.75.005Z" transform="translate(-22.077)" fill="#38ada9"/>
+  </g>
+  <g id="Ellipse_94" data-name="Ellipse 94" transform="translate(0 0)" fill="none" stroke="#38ada9" stroke-width="1">
+    <ellipse cx="26" cy="25.5" rx="26" ry="25.5" stroke="none"/>
+    <ellipse cx="26" cy="25.5" rx="25.5" ry="25" fill="none"/>
+  </g>
+</svg>

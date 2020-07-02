@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+
+    <title>Business with Property</title>
+  </head>
+  <body>
+    <header>
+      <div class="row mar-zero top-header">
+        <div class="center col-md-6">
+          <span class="topbar-text">Welcome to our Business Listing</span>
+        </div>
+        <div class="col-md-6 phone-email">
+          <span class="topbar-text"
+            >Phone:+1342 422 9029 Email:
+            <span class="clr-main">info@company.com</span></span
+          >
+        </div>
+      </div>
+      <div class="row mar-zero bottom-header my-listing-hdr">
+        <div class="col-md-4 center">
+          <h3 class="main-logo">Business Listing</h3>
+        </div>
+        <div class="col-md-4 center my-listing-hdr-2">
+          <span class="bottom-header-options">Buy a Business</span>
+          <span class="bottom-header-options">Sell a Business</span>
+          <span class="bottom-header-options clr-main">Business Brokers</span>
+        </div>
+        <div class="col-md-4 header-btns-cont">
+          <div class="top-profile">
+            <div class="name-status">
+              <div class="top-name">
+                <span>John Doe</span>
+              </div>
+              <div class="top-status">
+                <span>Available</span>
+              </div>
+            </div>
+            <div class="profile-img">
+              <img src="assets/images/User Photo.svg" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <div class="main-my-lsiting">
+      <div class="row">
+        <div class="col-md-2 side-bar">
+          <div class="side-bar-top-section">
+            <div
+              class="side-bar-item"
+              onclick="location.href='after-login-dashboard.html'"
+            >
+              <img src="assets/images/home.svg" alt="" />
+              <span>Dashboard</span>
+            </div>
+            <div
+              class="side-bar-item selected-side-item"
+              onclick="location.href='my-listing.html'"
+            >
+              <img
+                src="assets/images/iconfinder_Dollar_1737376.svg"
+                class="dlr-img"
+                alt=""
+              />
+              <span class="selling-span">Selling</span>
+            </div>
+            <div class="side-bar-item clr-main pad-left-25">
+              <span>My Listing</span>
+            </div>
+            <button
+              class="add-new"
+              onclick="location.href='start-creating-ad.html'"
+            >
+              Add new Listing
+            </button>
+          </div>
+          <div class="side-bar-item side-bar-item-btm">
+            <img src="assets/images/B.svg" alt="" />
+            <span>Buy</span>
+          </div>
+          <div
+            class="side-bar-item side-bar-item-btm"
+            onclick="location.href='my-saved-listings.html'"
+          >
+            <img src="assets/images/search.svg" alt="" />
+            <span>Searching</span>
+          </div>
+          <div
+            class="side-bar-item side-bar-item-btm"
+            onclick="location.href='my-mailbox.html'"
+          >
+            <img src="assets/images/Layer_1.svg" alt="" />
+            <span>Message Center</span>
+          </div>
+        </div>
+        <div class="col-md-10">
+          <div class="my-listing-rit-top-section">
+            <h2>My Listings</h2>
+            <div class="top-listing-btns">
+              <button
+                class="add-new fs-14 mar-rit-40"
+                onclick="location.href='start-creating-ad.html'"
+              >
+                Add new Listing
+              </button>
+              <select class="date-added fs-14">
+                <option>
+                  Date Added (Newest)
+                </option>
+              </select>
+            </div>
+          </div>
+
+          <div class="my-listing-items">
+            <!-- Item - 1 -->
+            <div
+              class="property-backg-blue row mar-zero property-business-item"
+            >
+              <div
+                class="col-md-2 pad-zero property-business-item-img my-listing-item-img"
+              >
+                <img
+                  src="assets/images/Business-listing-3.svg"
+                  alt="Broker/Seller Image"
+                />
+              </div>
+              <div class="col-md-8 pad-zero">
+                <div class="my-listing-item-heading">
+                  <span>FOCALPOINT BUSINESS</span>
+                </div>
+                <div
+                  class="property-business-item-description my-listing-item-end-desc"
+                >
+                  <span
+                    >Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Optio nulla sit pariatur expedita placeat hic ad debitis
+                    esse veritatis doloribus, dolores illum consequatur minus,
+                    dolorem fugit culpa modi veniam amet enim! Laboriosam ex
+                    praesentium vero velit distinctio earum aliquid.</span
+                  >
+                </div>
+                <div
+                  class="property-business-item-end-text my-listing-item-end-text"
+                >
+                  <span>California, USA</span>
+                </div>
+                <div
+                  class="property-business-item-end-text my-listing-item-end-text"
+                >
+                  <span>Revenue - $50,00 p.a</span>
+                </div>
+              </div>
+              <div class="col-md-2 my-listing-item-options">
+                <img
+                  src="assets/images/pencil-box.svg"
+                  class="edit-icon"
+                  alt=""
+                />
+                <img src="assets/images/my-listing-delete.svg" alt="" />
+              </div>
+            </div>
+
+            <!-- Item - 2 -->
+            <div
+              class="property-backg-pink row mar-zero property-business-item"
+            >
+              <div
+                class="col-md-2 pad-zero property-business-item-img my-listing-item-img"
+              >
+                <img
+                  src="assets/images/Business-listing-2.svg"
+                  alt="Broker/Seller Image"
+                />
+              </div>
+              <div class="col-md-8 pad-zero">
+                <div class="my-listing-item-heading">
+                  <span>FOCALPOINT BUSINESS</span>
+                </div>
+                <div
+                  class="property-business-item-description my-listing-item-end-desc"
+                >
+                  <span
+                    >Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Optio nulla sit pariatur expedita placeat hic ad debitis
+                    esse veritatis doloribus, dolores illum consequatur minus,
+                    dolorem fugit culpa modi veniam amet enim! Laboriosam ex
+                    praesentium vero velit distinctio earum aliquid.</span
+                  >
+                </div>
+                <div
+                  class="property-business-item-end-text my-listing-item-end-text"
+                >
+                  <span>California, USA</span>
+                </div>
+                <div
+                  class="property-business-item-end-text my-listing-item-end-text"
+                >
+                  <span>Revenue - $50,00 p.a</span>
+                </div>
+              </div>
+              <div class="col-md-2 my-listing-item-options">
+                <img
+                  src="assets/images/pencil-box.svg"
+                  class="edit-icon"
+                  alt=""
+                />
+                <img src="assets/images/my-listing-delete.svg" alt="" />
+              </div>
+            </div>
+
+            <!-- Item - 3 -->
+            <div
+              class="property-backg-blue row mar-zero property-business-item"
+            >
+              <div
+                class="col-md-2 pad-zero property-business-item-img my-listing-item-img"
+              >
+                <img
+                  src="assets/images/Business-listing-3.svg"
+                  alt="Broker/Seller Image"
+                />
+              </div>
+              <div class="col-md-8 pad-zero">
+                <div class="my-listing-item-heading">
+                  <span>FOCALPOINT BUSINESS</span>
+                </div>
+                <div
+                  class="property-business-item-description my-listing-item-end-desc"
+                >
+                  <span
+                    >Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Optio nulla sit pariatur expedita placeat hic ad debitis
+                    esse veritatis doloribus, dolores illum consequatur minus,
+                    dolorem fugit culpa modi veniam amet enim! Laboriosam ex
+                    praesentium vero velit distinctio earum aliquid.</span
+                  >
+                </div>
+                <div
+                  class="property-business-item-end-text my-listing-item-end-text"
+                >
+                  <span>California, USA</span>
+                </div>
+                <div
+                  class="property-business-item-end-text my-listing-item-end-text"
+                >
+                  <span>Revenue - $50,00 p.a</span>
+                </div>
+              </div>
+              <div class="col-md-2 my-listing-item-options">
+                <img
+                  src="assets/images/pencil-box.svg"
+                  class="edit-icon"
+                  alt=""
+                />
+                <img src="assets/images/my-listing-delete.svg" alt="" />
+              </div>
+            </div>
+
+            <!-- Item - 4 -->
+            <div
+              class="property-backg-pink row mar-zero property-business-item"
+            >
+              <div
+                class="col-md-2 pad-zero property-business-item-img my-listing-item-img"
+              >
+                <img
+                  src="assets/images/Business-listing-2.svg"
+                  alt="Broker/Seller Image"
+                />
+              </div>
+              <div class="col-md-8 pad-zero">
+                <div class="my-listing-item-heading">
+                  <span>FOCALPOINT BUSINESS</span>
+                </div>
+                <div
+                  class="property-business-item-description my-listing-item-end-desc"
+                >
+                  <span
+                    >Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Optio nulla sit pariatur expedita placeat hic ad debitis
+                    esse veritatis doloribus, dolores illum consequatur minus,
+                    dolorem fugit culpa modi veniam amet enim! Laboriosam ex
+                    praesentium vero velit distinctio earum aliquid.</span
+                  >
+                </div>
+                <div
+                  class="property-business-item-end-text my-listing-item-end-text"
+                >
+                  <span>California, USA</span>
+                </div>
+                <div
+                  class="property-business-item-end-text my-listing-item-end-text"
+                >
+                  <span>Revenue - $50,00 p.a</span>
+                </div>
+              </div>
+              <div class="col-md-2 my-listing-item-options">
+                <img
+                  src="assets/images/pencil-box.svg"
+                  class="edit-icon"
+                  alt=""
+                />
+                <img src="assets/images/my-listing-delete.svg" alt="" />
+              </div>
+            </div>
+
+            <!-- Item - 5 -->
+            <div
+              class="property-backg-blue row mar-zero property-business-item"
+            >
+              <div
+                class="col-md-2 pad-zero property-business-item-img my-listing-item-img"
+              >
+                <img
+                  src="assets/images/Business-listing-3.svg"
+                  alt="Broker/Seller Image"
+                />
+              </div>
+              <div class="col-md-8 pad-zero">
+                <div class="my-listing-item-heading">
+                  <span>FOCALPOINT BUSINESS</span>
+                </div>
+                <div
+                  class="property-business-item-description my-listing-item-end-desc"
+                >
+                  <span
+                    >Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Optio nulla sit pariatur expedita placeat hic ad debitis
+                    esse veritatis doloribus, dolores illum consequatur minus,
+                    dolorem fugit culpa modi veniam amet enim! Laboriosam ex
+                    praesentium vero velit distinctio earum aliquid.</span
+                  >
+                </div>
+                <div
+                  class="property-business-item-end-text my-listing-item-end-text"
+                >
+                  <span>California, USA</span>
+                </div>
+                <div
+                  class="property-business-item-end-text my-listing-item-end-text"
+                >
+                  <span>Revenue - $50,00 p.a</span>
+                </div>
+              </div>
+              <div class="col-md-2 my-listing-item-options">
+                <img
+                  src="assets/images/pencil-box.svg"
+                  class="edit-icon"
+                  alt=""
+                />
+                <img src="assets/images/my-listing-delete.svg" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <div class="row mar-zero">
+        <div class="col-md-2"></div>
+        <div class="col-md-8 row mar-zero busines-listing-footer">
+          <div class="col-md-4">
+            <div class="footer-heading">
+              <span>Business Listing</span>
+            </div>
+            <div class="footer-description">
+              <span
+                >Lorem ipsum dolor sit amet consectetur adipisicing elit. In,
+                quasi. Ipsa eveniet laboriosam dignissimos cum reprehenderit,
+                pariatur enim aliquam ipsum!</span
+              >
+            </div>
+            <div class="footer-icons">
+              <i class="fa fa-facebook my-fa-2 my-fb" aria-hidden="true"></i>
+              <i class="fa fa-instagram my-fa-2" aria-hidden="true"></i>
+              <i class="fa fa-linkedin my-fa-2" aria-hidden="true"></i>
+              <i
+                class="fa fa-google-plus my-fa-2 my-gplus"
+                aria-hidden="true"
+              ></i>
+            </div>
+          </div>
+          <div class="col-md-8 row mar-zero">
+            <div class="col-md-4">
+              <div class="footer-heading-2">
+                <span>Search</span>
+              </div>
+              <div class="footer-list">
+                <ul>
+                  <li>Established Business</li>
+                  <li>Franchise for Sale</li>
+                  <li>Asset Sales</li>
+                  <li>Business Real Estate</li>
+                  <li>Find a Broker</li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="footer-heading-2">
+                <span>Advertise</span>
+              </div>
+              <div class="footer-list">
+                <ul>
+                  <li>List a Business for Sale</li>
+                  <li>Become an Advertiser</li>
+                  <li>BrokerWorks</li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="footer-heading-2">
+                <span>Contact Us</span>
+              </div>
+              <div class="footer-list">
+                <ul>
+                  <li>Phone: +1 234 567 9332</li>
+                  <li>Email: info@company.com</li>
+                  <li>Fax: +1 242 422 5314</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-2"></div>
+      </div>
+
+      <div class="center Copyright">
+        <span
+          >© Copyright 2018 <span class="copyright-darker">CleanNow,</span> All
+          right Reserved
+        </span>
+      </div>
+    </footer>
+  </body>
+</html>

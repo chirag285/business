@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+
+    <title>Business with Property</title>
+  </head>
+  <body>
+    <header>
+      <div class="row mar-zero top-header">
+        <div class="center col-md-6">
+          <span class="topbar-text">Welcome to our Business Listing</span>
+        </div>
+        <div class="col-md-6 phone-email">
+          <span class="topbar-text"
+            >Phone:+1342 422 9029 Email:
+            <span class="clr-main">info@company.com</span></span
+          >
+        </div>
+      </div>
+      <div class="row mar-zero bottom-header my-listing-hdr">
+        <div class="col-md-4 center">
+          <h3 class="main-logo">Business Listing</h3>
+        </div>
+        <div class="col-md-4 center my-listing-hdr-2">
+          <span class="bottom-header-options">Buy a Business</span>
+          <span class="bottom-header-options">Sell a Business</span>
+          <span class="bottom-header-options clr-main">Business Brokers</span>
+        </div>
+        <div class="col-md-4 header-btns-cont">
+          <div class="top-profile">
+            <div class="name-status">
+              <div class="top-name">
+                <span>John Doe</span>
+              </div>
+              <div class="top-status">
+                <span>Available</span>
+              </div>
+            </div>
+            <div class="profile-img">
+              <img src="assets/images/User Photo.svg" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <div class="main-my-lsiting">
+      <div class="row">
+        <div class="col-md-2 side-bar">
+          <div class="side-bar-top-section side-bar-top-section-2">
+            <div
+              class="side-bar-item"
+              onclick="location.href='after-login-dashboard.html'"
+            >
+              <img src="assets/images/home.svg" alt="" />
+              <span>Dashboard</span>
+            </div>
+            <div class="side-bar-item"
+            onclick="location.href='my-listing.html'"
+            >
+              <img
+                src="assets/images/iconfinder_Dollar_1737376.svg"
+                class="dlr-img"
+                alt=""
+              />
+              <span class="selling-span">Selling</span>
+            </div>
+          </div>
+          <div class="side-bar-item side-bar-item-btm">
+            <img src="assets/images/B.svg" alt="" />
+            <span>Buy</span>
+          </div>
+          <div class="side-bar-item side-bar-item-btm"
+          onclick="location.href='my-saved-listings.html'"
+          >
+            <img src="assets/images/search.svg" alt="" />
+            <span>Searching</span>
+          </div>
+          <div class="side-bar-item side-bar-item-btm selected-side-item-2"
+          onclick="location.href='my-mailbox.html'"
+          >
+            <img src="assets/images/Layer_1.svg" alt="" />
+            <span>Message Center</span>
+          </div>
+          <div class="side-bar-item pad-left-25">
+            <span>My Mailbox</span>
+          </div>
+          <div class="side-bar-item clr-main pad-left-25 border-bottom">
+            <span>My Email Prefrences</span>
+          </div>
+        </div>
+        <div class="col-md-10">
+          <div class="main-mailbox">
+            <div class="mailbox-main-heading">
+              <h2>My Email Prefrences</h2>
+            </div>
+            <div class="only-message pad-btm-18">
+              <span
+                >Customize which emails you recieve at ss9888955@gmail.com and
+                how often.</span
+              >
+            </div>
+            <div class="email-prefrences-row-1">
+              <div class="newsletters">
+                <span>Newsletters</span>
+              </div>
+              <div class="newsletter-option-list">
+                <ul>
+                  <li>
+                    Buyer Newsletter <img src="assets/images/1.svg" alt="" />
+                  </li>
+                  <li>
+                    Broker Newsletter <img src="assets/images/1.svg" alt="" />
+                  </li>
+                  <li>
+                    Seller Newsletter <img src="assets/images/1.svg" alt="" />
+                  </li>
+                </ul>
+              </div>
+
+              <div class="monthly">
+                <ul>
+                  <li>
+                    <label class="my-radios"
+                      >Monthly
+                      <input type="radio" checked="checked" name="radio" />
+                      <span class="checkmark"></span>
+                    </label>
+                  </li>
+                  <li>
+                    <label class="my-radios"
+                      >Monthly
+                      <input type="radio" name="radio" />
+                      <span class="checkmark"></span>
+                    </label>
+                  </li>
+                  <li>
+                    <label class="my-radios"
+                      >Monthly
+                      <input type="radio" name="radio" />
+                      <span class="checkmark"></span>
+                    </label>
+                  </li>
+              </div>
+            </div>
+            <div class="email-prefrences-row-2">
+              <div class="second-email-pref-headings">
+                <span
+                  >Saved Listing Alerts <img src="assets/images/1.svg" alt="" />
+                </span>
+                <label class="my-switch mar-left-media">
+                  <input type="checkbox"  />
+                  <span class="slider round"></span>
+                </label>
+              </div>
+            </div>
+            <div class="email-prefrences-row-2 email-prefrences-row-3">
+              <div class="second-email-pref-headings">
+                <span>Other Marketing Emails </span>
+                <label class="my-switch">
+                  <input type="checkbox"  checked/>
+                  <span class="slider round"></span>
+                </label>
+              </div>
+            </div>
+
+            <div class="select-state-section">
+              <div class="select-state-heading">
+                <span>Select Your State</span>
+              </div>
+              <div class="select-state-desc">
+                <span
+                  >Tell us your state of intrest and we will customize our
+                  emails to feature the business that are relecent to you -
+                  including a monthly update of the top opportunities in your
+                  area.
+                </span>
+              </div>
+              <div class="select-state-select">
+                <select>
+                  <option>Please Select</option>
+                  <option>Himachal Pradesh</option>
+                  <option>Punjab</option>
+                </select>
+              </div>
+              <button class="state-save-changes">Save Changes</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <div class="row mar-zero">
+        <div class="col-md-2"></div>
+        <div class="col-md-8 row mar-zero busines-listing-footer">
+          <div class="col-md-4">
+            <div class="footer-heading">
+              <span>Business Listing</span>
+            </div>
+            <div class="footer-description">
+              <span
+                >Lorem ipsum dolor sit amet consectetur adipisicing elit. In,
+                quasi. Ipsa eveniet laboriosam dignissimos cum reprehenderit,
+                pariatur enim aliquam ipsum!</span
+              >
+            </div>
+            <div class="footer-icons">
+              <i class="fa fa-facebook my-fa-2 my-fb" aria-hidden="true"></i>
+              <i class="fa fa-instagram my-fa-2" aria-hidden="true"></i>
+              <i class="fa fa-linkedin my-fa-2" aria-hidden="true"></i>
+              <i
+                class="fa fa-google-plus my-fa-2 my-gplus"
+                aria-hidden="true"
+              ></i>
+            </div>
+          </div>
+          <div class="col-md-8 row mar-zero">
+            <div class="col-md-4">
+              <div class="footer-heading-2">
+                <span>Search</span>
+              </div>
+              <div class="footer-list">
+                <ul>
+                  <li>Established Business</li>
+                  <li>Franchise for Sale</li>
+                  <li>Asset Sales</li>
+                  <li>Business Real Estate</li>
+                  <li>Find a Broker</li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="footer-heading-2">
+                <span>Advertise</span>
+              </div>
+              <div class="footer-list">
+                <ul>
+                  <li>List a Business for Sale</li>
+                  <li>Become an Advertiser</li>
+                  <li>BrokerWorks</li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="footer-heading-2">
+                <span>Contact Us</span>
+              </div>
+              <div class="footer-list">
+                <ul>
+                  <li>Phone: +1 234 567 9332</li>
+                  <li>Email: info@company.com</li>
+                  <li>Fax: +1 242 422 5314</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-2"></div>
+      </div>
+
+      <div class="center Copyright">
+        <span
+          >© Copyright 2018 <span class="copyright-darker">CleanNow,</span> All
+          right Reserved
+        </span>
+      </div>
+    </footer>
+  </body>
+</html>
